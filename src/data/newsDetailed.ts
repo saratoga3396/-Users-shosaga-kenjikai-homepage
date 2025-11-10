@@ -8,6 +8,13 @@ export type DetailedNews = {
 
 export const detailedNews: DetailedNews[] = [
   {
+    date: "2025.10.20",
+    title: "広報50号（2025秋号）発行しました！",
+    body: "広報50号（2025秋号）を発行しました。秋の行事や地域交流の様子、季節ならではの取り組みを掲載しています。PDFをダウンロードしてぜひご覧ください。",
+    linkLabel: "広報50号（PDF）はこちら",
+    linkUrl: "https://drive.google.com/file/d/1145O5ZXlw1WZgN4QmXNZowJO4Fpic-hd/view?usp=sharing",
+  },
+  {
     date: "2025.08.21",
     title: "敬老会を開催します！",
     body: "今年の敬老会は9/24(水)に開催いたします。コロナ禍以降、長らく入所者様と職員のみで開催してきておりましたが、今年はご家族様や慰問の皆様をお招きする形で開催いたします。会食はせず式典のみの開催となりますが、入所者様と楽しいひと時をお楽しみいただきたいと思います。※入所者様お一人にご家族様お一人までのお招きとなります。",
@@ -23,6 +30,8 @@ export const detailedNews: DetailedNews[] = [
     date: "2025.07.19",
     title: "広報49号（2025夏号）発行しました！",
     body: "広報49号（2025夏号）を発行しました。地域交流やイベントの様子、季節のトピックを掲載しています。PDFをダウンロードしてぜひご覧ください。",
+    linkLabel: "広報49号（PDF）はこちら",
+    linkUrl: "https://drive.google.com/file/d/1_r_KyVZTCsnVRWYyli_h__271E4UuEW_/view?usp=sharing",
   },
   {
     date: "2025.06.15",

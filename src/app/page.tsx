@@ -535,7 +535,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative h-72 rounded-3xl bg-emerald-50">
-            <Image src="/images/IMG_6188.JPG" alt="地域交流の様子" fill className="rounded-3xl object-cover" />
+            <Image src="/images/community-hands.jpg" alt="地域で世代を超えて手を取り合う様子" fill className="rounded-3xl object-cover" />
           </div>
         </div>
       </section>
