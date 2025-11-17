@@ -22,60 +22,110 @@ export function HeroGallerySlider({
   showCaption = true,
 }: HeroGallerySliderProps) {
   const sanitizedImages = useMemo(() => images.filter((image) => image?.src), [images]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const hasMultipleImages = sanitizedImages.length > 1;
+  const extendedImages = useMemo(() => {
+    if (!hasMultipleImages) {
+      return sanitizedImages;
+    }
+    const first = sanitizedImages[0];
+    const last = sanitizedImages[sanitizedImages.length - 1];
+    return [last, ...sanitizedImages, first];
+  }, [hasMultipleImages, sanitizedImages]);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [positionIndex, setPositionIndex] = useState(hasMultipleImages ? 1 : 0);
+  const [transitionEnabled, setTransitionEnabled] = useState(true);
 
   useEffect(() => {
-    if (sanitizedImages.length <= 1) return;
+    if (hasMultipleImages) {
+      setActiveIndex(0);
+      setPositionIndex(1);
+    } else {
+      setActiveIndex(0);
+      setPositionIndex(0);
+    }
+    setTransitionEnabled(true);
+  }, [hasMultipleImages, sanitizedImages]);
+
+  useEffect(() => {
+    if (!hasMultipleImages) return;
 
     const timer = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % sanitizedImages.length);
+      setPositionIndex((prev) => prev + 1);
+      setActiveIndex((prev) => (prev + 1) % sanitizedImages.length);
     }, intervalMs);
 
     return () => clearInterval(timer);
-  }, [intervalMs, sanitizedImages.length]);
+  }, [hasMultipleImages, intervalMs, sanitizedImages.length]);
+
+  useEffect(() => {
+    if (!transitionEnabled) {
+      const id = requestAnimationFrame(() => setTransitionEnabled(true));
+      return () => cancelAnimationFrame(id);
+    }
+  }, [transitionEnabled]);
 
   if (sanitizedImages.length === 0) {
     return null;
   }
 
   const goToIndex = (index: number) => {
-    setCurrentIndex((index + sanitizedImages.length) % sanitizedImages.length);
+    if (!hasMultipleImages) return;
+    setActiveIndex((index + sanitizedImages.length) % sanitizedImages.length);
+    setPositionIndex(index + 1);
   };
 
   const goToPrev = () => {
-    goToIndex(currentIndex - 1);
+    if (!hasMultipleImages) return;
+    setPositionIndex((prev) => prev - 1);
+    setActiveIndex((prev) => (prev - 1 + sanitizedImages.length) % sanitizedImages.length);
   };
 
   const goToNext = () => {
-    goToIndex(currentIndex + 1);
+    if (!hasMultipleImages) return;
+    setPositionIndex((prev) => prev + 1);
+    setActiveIndex((prev) => (prev + 1) % sanitizedImages.length);
+  };
+
+  const handleTransitionEnd = () => {
+    if (!hasMultipleImages) return;
+
+    if (positionIndex === extendedImages.length - 1) {
+      setTransitionEnabled(false);
+      setPositionIndex(1);
+    } else if (positionIndex === 0) {
+      setTransitionEnabled(false);
+      setPositionIndex(extendedImages.length - 2);
+    }
   };
 
   const baseClass = "relative overflow-hidden";
   const defaultSizing = "h-64 w-full rounded-2xl border border-white/30 shadow-xl";
   const containerClass = `${baseClass} ${className ?? defaultSizing}`;
+  const trackClasses = `flex h-full w-full ${transitionEnabled ? "transition-transform duration-700 ease-out" : ""}`;
 
   return (
     <div className={containerClass}>
-      {sanitizedImages.map((image, index) => (
-        <div
-          key={image.src}
-          className={`absolute inset-0 transition-opacity duration-700 ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
-        >
-          <div className="flex h-full w-full items-center justify-center bg-black/5">
+      <div
+        className={trackClasses}
+        style={{ transform: `translateX(-${positionIndex * 100}%)` }}
+        onTransitionEnd={handleTransitionEnd}
+      >
+        {extendedImages.map((image, index) => (
+          <div key={`${image.src}-${index}`} className="relative h-full w-full flex-shrink-0">
             <Image
               src={image.src}
               alt={image.alt}
               fill
               sizes="100vw"
-              className="object-contain"
-              priority={index === 0}
+              className="object-cover"
+              priority={hasMultipleImages ? index === 1 : index === 0}
             />
           </div>
-          {showCaption && null}
-        </div>
-      ))}
+        ))}
+      </div>
+      {showCaption && null}
 
-      {sanitizedImages.length > 1 && (
+      {hasMultipleImages && (
         <>
           <button
             type="button"
@@ -100,7 +150,7 @@ export function HeroGallerySlider({
                 key={`dot-${index}`}
                 type="button"
                 aria-label={`写真${index + 1}を見る`}
-                className={`h-2 w-2 rounded-full ${index === currentIndex ? "bg-white" : "bg-white/40"}`}
+                className={`h-2 w-2 rounded-full ${index === activeIndex ? "bg-white" : "bg-white/40"}`}
                 onClick={() => goToIndex(index)}
               />
             ))}
