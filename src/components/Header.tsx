@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-blue-800">
+        <div className="text-2xl font-bold text-green-700">
           <Link href="/">社会福祉法人健慈会</Link>
         </div>
 
