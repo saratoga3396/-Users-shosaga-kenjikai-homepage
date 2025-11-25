@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useMemo, useState } from 'react';
 
 export default function Header() {
@@ -26,8 +27,17 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-green-700">
-          <Link href="/">社会福祉法人健慈会</Link>
+        <div className="flex items-center gap-4">
+          <div className="text-2xl font-bold text-green-700">
+            <Link href="/">社会福祉法人健慈会</Link>
+          </div>
+          <Image
+            src="/images/security_action_hitotsuboshi-large_bw.png"
+            alt="SECURITY ACTION 一つ星"
+            width={40}
+            height={40}
+            className="object-contain"
+          />
         </div>
 
         {/* Desktop Navigation */}

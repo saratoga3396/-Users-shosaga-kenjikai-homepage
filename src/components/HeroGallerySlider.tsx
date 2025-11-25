@@ -100,26 +100,34 @@ export function HeroGallerySlider({
 
   const baseClass = "relative overflow-hidden";
   const defaultSizing = "h-64 w-full rounded-2xl border border-white/30 shadow-xl";
-  const containerClass = `${baseClass} ${className ?? defaultSizing}`;
+  const containerClass = `${baseClass} ${className ?? defaultSizing} [--slide-width:80%] md:[--slide-width:60%]`;
   const trackClasses = `flex h-full w-full ${transitionEnabled ? "transition-transform duration-700 ease-out" : ""}`;
 
   return (
     <div className={containerClass}>
       <div
         className={trackClasses}
-        style={{ transform: `translateX(-${positionIndex * 100}%)` }}
+        style={{
+          transform: `translateX(calc(-${positionIndex} * var(--slide-width) + (100% - var(--slide-width)) / 2))`,
+        }}
         onTransitionEnd={handleTransitionEnd}
       >
         {extendedImages.map((image, index) => (
-          <div key={`${image.src}-${index}`} className="relative h-full w-full flex-shrink-0">
-            <Image
-              src={image.src}
-              alt={image.alt}
-              fill
-              sizes="100vw"
-              className="object-cover"
-              priority={hasMultipleImages ? index === 1 : index === 0}
-            />
+          <div
+            key={`${image.src}-${index}`}
+            className="relative h-full flex-shrink-0 px-2"
+            style={{ width: "var(--slide-width)" }}
+          >
+            <div className="relative h-full w-full overflow-hidden rounded-xl bg-black/5">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                sizes="(max-width: 768px) 80vw, 60vw"
+                className="object-contain"
+                priority={hasMultipleImages ? index === 1 : index === 0}
+              />
+            </div>
           </div>
         ))}
       </div>

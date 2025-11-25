@@ -20,55 +20,58 @@ const sectionLinks = [
 const facilityPolicies = [
   {
     title: "人格を尊重",
-    description: "利用者様の人格を尊重し、常にその立場に立ったサービスを提供します。",
+    description: "利用者様の意思や人格を尊重し、利用者様の立場に立ったサービスを提供します。",
   },
   {
     title: "自立支援",
-    description: "利用者様の能力に応じ、自立した日常生活が送れるよう支援します。",
+    description: "利用者様の持つ能力に応じて自立した日常生活を営むことができるよう支援します。",
   },
   {
     title: "安心した生活",
-    description: "利用者様やご家族が安心して暮らせるよう、切れ目のない支援体制を整えます。",
+    description: "利用者様やご家族様が安心して生活できるよう支援します。",
   },
   {
     title: "地域との連携",
-    description: "地域との連携・交流を行い、地域福祉の拠点をめざします。",
+    description: "地域との連携及び協力を行い、地域との交流につとめ、地域の福祉サービスの拠点を目指します。",
   },
   {
     title: "働きがいのある職場づくり",
-    description: "職員が成長と達成を実感できる職場環境を整備します。",
+    description: "職員が仕事を通じて成長と達成を実感できる職場環境づくりを目指します。",
   },
 ];
 
 const staffGuidelines = [
-  "利用者様本位のサービス実現に向け、研修等を通じ自己研鑽に努め、絶えず改善します。",
-  "危険や事故等に対し、予防の取り組みを強化します。",
-  "相手の立場を尊重し、協調性のある職員になります。",
-  "多職種との情報共有や連携を図り、共通認識のもとでサービスを提供します。",
-  "仕事に誇りと責任を持ち、社会人として法令を遵守します。",
-  "挨拶や礼儀を大切にし、信頼される施設を目指します。",
+  "私たちは、利用者様本位のサービスを実現するため、研修などを通して自己研鑽に努め、絶えず改善を試み、出来ないと言わずやってみる職員となる。",
+  "私たちは、危険や事故等に対し、可能な限り事前予測し予防の取組強化を計ります。",
+  "私たちは、相手の立場を尊重し、協調性のある職員となります。",
+  "私たちは、常に多職種と情報の共有や連携を図り、共通認識のもとでサービス提供を行います。",
+  "私たちは、仕事に対し誇りと責任を持ち、社会人として法令を遵守すると共に、社会のルール、施設のルールを守り行動します。",
+  "私たちは、挨拶や礼儀等正しく行い、社会の良識ある一員として誠実に行動します。",
+  "地域との交流の推進を図り、安心と信頼で結ばれ、地域に必要とされる施設を目指す。",
 ];
 
 const facilityCards = [
   {
-    name: "特別養護老人ホーム 結の里（介護老人福祉施設）",
+    name: "特別養護老人ホーム 結の里",
+    subName: "（地域密着型介護老人福祉施設）",
     description:
       "在宅での生活が困難になった要介護3以上（特例の要介護1・2）の高齢者が入居でき、原則として終身にわたって介護が受けられる施設です。住み慣れた地域で自分らしく生活を続けることができ、個人のプライバシーを尊重し、少人数の単位で家庭的な雰囲気の中で個別ケアを充実させることを目指しています。",
     image: "/images/yui-gallery-flowers.jpg",
     accentClass: "text-emerald-800",
     tagClass: "bg-emerald-50 text-emerald-700",
     link: "/facilities/yui",
-    tags: ["入所定員29人", "地域密着型特養", "協力医療機関あり"],
+    tags: ["入所定員29名", "ユニットケア", "看取りケア"],
   },
   {
-    name: "グループホーム ぬくもり（認知症対応型共同生活介護）",
+    name: "グループホーム ぬくもり",
+    subName: "（認知症対応型共同生活介護）",
     description:
       "認知症と診断された方が、家庭的な環境のもとで家事や清掃などの役割を持ちながら共同で生活するサービスです。自分でできることを大切にし、なじみの人間関係の中で可能な限り自立した日常生活を送ることができるよう支援いたします。",
     image: "/images/nukumori-garden.jpg",
     accentClass: "text-lime-800",
     tagClass: "bg-lime-50 text-lime-700",
     link: "/facilities/nukumori",
-    tags: ["2ユニット18人", "認知症ケア", "24時間オンコール"],
+    tags: ["2ユニット18人", "認知症チームケア", "24時間オンコール"],
   },
 ];
 
@@ -92,7 +95,7 @@ export default function Home() {
           priority
           sizes="100vw"
         />
-        <div className="relative flex min-h-[80vh] flex-col justify-center px-6 py-16 md:min-h-screen md:px-24">
+        <div className="relative flex min-h-[80vh] flex-col justify-center px-6 py-16 pb-[32rem] md:min-h-screen md:px-24 md:pb-[32rem]">
           <div className="max-w-xl space-y-4 rounded-3xl bg-white/70 p-6 shadow-2xl backdrop-blur">
             <p className="text-sm uppercase tracking-[0.4em] text-emerald-800 md:text-base">社会福祉法人 健慈会</p>
             <h1 className="text-3xl font-semibold leading-relaxed text-emerald-900 md:text-4xl">
@@ -193,7 +196,8 @@ export default function Home() {
             <ol className="mt-4 list-decimal space-y-3 pl-5 text-sm md:text-base text-emerald-50">
               {facilityPolicies.map((policy) => (
                 <li key={policy.title}>
-                  <span className="font-semibold text-white">{policy.title}</span> {policy.description}
+                  <div className="font-semibold text-white mb-1">{policy.title}</div>
+                  <div className="text-emerald-50">{policy.description}</div>
                 </li>
               ))}
             </ol>
@@ -229,11 +233,14 @@ export default function Home() {
                 />
               </div>
               <div className="space-y-4 p-6">
-                <h3 className={`text-2xl font-bold ${facility.accentClass}`}>{facility.name}</h3>
+                <h3 className={`text-2xl font-bold ${facility.accentClass}`}>
+                  {facility.name}
+                  <span className="block text-lg mt-1">{facility.subName}</span>
+                </h3>
                 <p className="text-gray-700">{facility.description}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5">
                   {facility.tags.map((tag) => (
-                    <span key={tag} className={`rounded-full px-3 py-1 text-sm font-semibold ${facility.tagClass}`}>
+                    <span key={tag} className={`rounded-full px-2 py-1 text-xs font-semibold ${facility.tagClass}`}>
                       {tag}
                     </span>
                   ))}
@@ -275,17 +282,15 @@ export default function Home() {
             <ul className="mt-4 space-y-3 text-emerald-50 leading-relaxed">
               <li>・短期入所生活介護（ショートステイ）</li>
               <li>・認知症対応型短期利用共同生活介護（グループホームショートステイ）</li>
-              <li>・共用型認知症対応型通所介護（認知症デイサービス）</li>
+              <li>
+                ・共用型認知症対応型通所介護（認知症デイサービス）
+                <span className="block text-sm text-yellow-300 pl-4 mt-1">※新規デイ利用受付停止中</span>
+              </li>
             </ul>
             <p className="mt-4 text-sm underline decoration-dotted">担当ケアマネジャーにご利用相談をお願いいたします。</p>
           </article>
         </div>
-        <div className="mt-8 text-right">
-          <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 font-semibold text-emerald-700 shadow-lg">
-            お問い合わせフォーム
-            <span aria-hidden>→</span>
-          </Link>
-        </div>
+
         <div className="mt-10 grid gap-6 rounded-3xl bg-white/10 p-6 backdrop-blur md:grid-cols-3">
           <article>
             <h3 className="text-xl font-semibold">パンフレット (PDF)</h3>
@@ -520,11 +525,14 @@ export default function Home() {
             <p className="text-gray-700 leading-relaxed">
               社会福祉法人健慈会は、岩手県社会福祉協議会が推進する「IWATE・あんしんサポート事業」に参画し、地域住民の生活相談や緊急時の安心づくりに協力しています。
             </p>
-            <ul className="space-y-2 text-gray-700">
-              <li>・生活や介護の相談受付</li>
-              <li>・見守り支援や緊急時の駆けつけ体制</li>
-              <li>・地域福祉を支える人材との連携</li>
-            </ul>
+            <div className="mt-6 rounded-xl border-2 border-dotted border-emerald-300 bg-emerald-50/50 p-5">
+              <p className="font-bold text-emerald-900">【支援活動の例】</p>
+              <ul className="mt-2 space-y-2 text-sm text-emerald-800">
+                <li>①困りごとの解決に必要な期間中（就職活動期間・制度利用手続期間等）の衣食住の確保</li>
+                <li>②事故・疾病等の理由により生じた一時的な生活困窮状態の軽減</li>
+                <li>③子どもの社会的不利益の回避のための援助</li>
+              </ul>
+            </div>
             <Link
               href="https://www.iwate-shakyo.or.jp/kenmin/anshin.html"
               target="_blank"
@@ -689,12 +697,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-emerald-800">受付時間</h3>
               <p className="mt-2 leading-relaxed">{accessInfo.officeHours}</p>
             </div>
-            <div className="pt-4">
-              <Link href="/contact" className="inline-flex items-center text-emerald-600 hover:underline">
-                お問い合わせフォームはこちら
-                <span className="ml-2">→</span>
-              </Link>
-            </div>
+
           </div>
           <div className="relative h-64 w-full overflow-hidden rounded-3xl">
             <iframe
