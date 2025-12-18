@@ -8,6 +8,13 @@ export type DetailedNews = {
 
 export const detailedNews: DetailedNews[] = [
   {
+    date: "2025.12.11",
+    title: "讀賣新聞様のオンラインサイトで掲載されました",
+    body: "讀賣新聞様のオンラインサイトにて、記事が掲載されました。下記リンクより詳細をご覧いただけます。",
+    linkLabel: "記事はこちら（讀賣新聞オンライン）",
+    linkUrl: "https://www.yomiuri.co.jp/national/20251210-GYT1T00257/",
+  },
+  {
     date: "2025.10.20",
     title: "広報50号（2025秋号）発行しました！",
     body: "広報50号（2025秋号）を発行しました。秋の行事や地域交流の様子、季節ならではの取り組みを掲載しています。PDFをダウンロードしてぜひご覧ください。",
