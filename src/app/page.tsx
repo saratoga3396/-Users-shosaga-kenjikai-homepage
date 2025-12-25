@@ -728,6 +728,9 @@ export default function Home() {
 const galleryImages = [
   { src: "/images/christmas_event_2025.jpg", alt: "クリスマスイベント" },
   { src: "/images/christmas_event_2025_2.jpg", alt: "クリスマスイベント2" },
+  { src: "/images/christmas_event_2025_3.jpg", alt: "クリスマスイベント3" },
+  { src: "/images/christmas_event_2025_4.jpg", alt: "クリスマスイベント4" },
+  { src: "/images/christmas_event_2025_5.jpg", alt: "クリスマスイベント5" },
   { src: "/images/line_oa_chat_250210_120553.jpg", alt: "施設全景の俯瞰" },
   { src: "/images/line_oa_chat_251014_142023_group_2.jpg", alt: "木々に囲まれた外観" },
 
