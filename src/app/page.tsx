@@ -726,9 +726,11 @@ export default function Home() {
   );
 }
 const galleryImages = [
+  { src: "/images/christmas_event_2025.jpg", alt: "クリスマスイベント" },
+  { src: "/images/christmas_event_2025_2.jpg", alt: "クリスマスイベント2" },
   { src: "/images/line_oa_chat_250210_120553.jpg", alt: "施設全景の俯瞰" },
   { src: "/images/line_oa_chat_251014_142023_group_2.jpg", alt: "木々に囲まれた外観" },
-  { src: "/images/line_oa_chat_251022_101002_group_9.jpg", alt: "窓辺からの眺め" },
+
   { src: "/images/line_oa_chat_251023_165141.jpg", alt: "共用部の装飾" },
   { src: "/images/IMG_1150.JPG", alt: "季節のイベント" },
   { src: "/images/IMG_1159.JPG", alt: "ダイニングスペース" },
