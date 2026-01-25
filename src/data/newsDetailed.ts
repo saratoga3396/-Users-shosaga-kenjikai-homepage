@@ -8,6 +8,13 @@ export type DetailedNews = {
 
 export const detailedNews: DetailedNews[] = [
   {
+    date: "2026.1.20",
+    title: "広報51号（2026冬号）発行しました！",
+    body: "広報51号（2026冬号）を発行しました。冬の行事や地域交流の様子、季節ならではの取り組みを掲載しています。PDFをダウンロードしてぜひご覧ください。",
+    linkLabel: "広報51号（PDF）はこちら",
+    linkUrl: "https://drive.google.com/file/d/1GrlU261AfTBJdO9dLB-HDljOuHttu27e/view?usp=sharing",
+  },
+  {
     date: "2025.12.11",
     title: "讀賣新聞様のオンラインサイトで掲載されました",
     body: "讀賣新聞様のオンラインサイトにて、記事が掲載されました。下記リンクより詳細をご覧いただけます。",
