@@ -758,5 +758,4 @@ const staffGalleryImages = [
   { src: "/images/staff-slider-3.jpg", alt: "屋外レクリエーション" },
   { src: "/images/staff-slider-4.jpg", alt: "談話スペースでのふれあい" },
   { src: "/images/staff-slider-5.jpg", alt: "手作業のケア" },
-  { src: "/images/staff-slider-6.jpg", alt: "メイクアップのサポート" },
 ];
