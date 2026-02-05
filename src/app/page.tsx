@@ -600,31 +600,51 @@ export default function Home() {
             <p className="mt-2 text-gray-700">多様な働き方に対応した制度で、長く安心して働ける環境を整えています。</p>
             <p className="mt-2 text-gray-700">私たちと一緒に働きませんか？結の里・ぬくもりではともに成長できる仲間を募集しています。ママさん世代やレジェンド世代など様々な人材が活躍しています。</p>
           </div>
-          <div className="flex flex-col gap-3 text-center md:w-80">
-            <Link
-              href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000241461&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md hover:bg-emerald-500"
-            >
-              結の里 看護師求人はこちら
-            </Link>
-            <Link
-              href="https://www.hellowork.mhlw.go.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md hover:bg-emerald-500"
-            >
-              結の里 介護職員の求人検索
-            </Link>
-            <Link
-              href="https://forms.gle/8WYptdd6xceZaW4x6"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-emerald-600 px-6 py-3 font-semibold text-emerald-700 shadow-md hover:bg-emerald-50"
-            >
-              エントリーフォーム
-            </Link>
+          <div className="w-full">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
+              <Link
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000241461&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
+              >
+                看護職員（正社員）
+              </Link>
+              <Link
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000004261&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
+              >
+                介護職員（正社員）
+              </Link>
+              <Link
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000047561&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
+              >
+                生活相談員（正社員）
+              </Link>
+              <Link
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000219861&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
+              >
+                調理員（パート）
+              </Link>
+            </div>
+            <div className="mt-6 flex justify-center">
+              <Link
+                href="https://forms.gle/8WYptdd6xceZaW4x6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-full max-w-md items-center justify-center rounded-full border-2 border-emerald-600 px-8 py-3 font-bold text-emerald-700 shadow-md transition hover:bg-emerald-50 hover:text-emerald-800 sm:w-auto"
+              >
+                エントリーフォームはこちら
+              </Link>
+            </div>
           </div>
         </div>
         <div className="mt-10">
