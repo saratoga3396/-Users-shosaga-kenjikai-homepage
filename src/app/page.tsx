@@ -602,7 +602,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-3 text-center md:w-80">
             <Link
-              href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310001928151&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+              href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000241461&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md hover:bg-emerald-500"
@@ -610,12 +610,12 @@ export default function Home() {
               結の里 看護師求人はこちら
             </Link>
             <Link
-              href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310001836751&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+              href="https://www.hellowork.mhlw.go.jp/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md hover:bg-emerald-500"
             >
-              結の里 介護職員の求人はこちら
+              結の里 介護職員の求人検索
             </Link>
             <Link
               href="https://forms.gle/8WYptdd6xceZaW4x6"
