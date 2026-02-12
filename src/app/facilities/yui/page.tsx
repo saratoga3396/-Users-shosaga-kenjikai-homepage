@@ -16,9 +16,9 @@ export default function YuiPage() {
     <div className="space-y-12">
       <BreadcrumbJsonLd
         items={[
-          { name: "ホーム", url: "https://kenjikai.jp" },
-          { name: "施設紹介", url: "https://kenjikai.jp/#facilities" },
-          { name: "特別養護老人ホーム 結の里", url: "https://kenjikai.jp/facilities/yui" },
+          { name: "ホーム", url: "https://kenjikai-officialhomepage.vercel.app" },
+          { name: "施設紹介", url: "https://kenjikai-officialhomepage.vercel.app/#facilities" },
+          { name: "特別養護老人ホーム 結の里", url: "https://kenjikai-officialhomepage.vercel.app/facilities/yui" },
         ]}
       />
       <section className="text-center py-16 bg-blue-100 rounded-lg shadow-md">

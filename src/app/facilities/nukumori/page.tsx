@@ -16,9 +16,9 @@ export default function NukumoriPage() {
     <div className="space-y-12">
       <BreadcrumbJsonLd
         items={[
-          { name: "ホーム", url: "https://kenjikai.jp" },
-          { name: "施設紹介", url: "https://kenjikai.jp/#facilities" },
-          { name: "グループホーム ぬくもり", url: "https://kenjikai.jp/facilities/nukumori" },
+          { name: "ホーム", url: "https://kenjikai-officialhomepage.vercel.app" },
+          { name: "施設紹介", url: "https://kenjikai-officialhomepage.vercel.app/#facilities" },
+          { name: "グループホーム ぬくもり", url: "https://kenjikai-officialhomepage.vercel.app/facilities/nukumori" },
         ]}
       />
       <section className="text-center py-16 bg-green-100 rounded-lg shadow-md">

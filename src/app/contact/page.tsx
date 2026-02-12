@@ -15,8 +15,8 @@ export default function ContactPage() {
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "ホーム", url: "https://kenjikai.jp" },
-          { name: "お問い合わせ", url: "https://kenjikai.jp/contact" },
+          { name: "ホーム", url: "https://kenjikai-officialhomepage.vercel.app" },
+          { name: "お問い合わせ", url: "https://kenjikai-officialhomepage.vercel.app/contact" },
         ]}
       />
       <ContactForm />

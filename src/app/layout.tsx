@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = "https://kenjikai.jp";
+const BASE_URL = "https://kenjikai-officialhomepage.vercel.app";
 
 export const viewport: Viewport = {
   width: "device-width",
