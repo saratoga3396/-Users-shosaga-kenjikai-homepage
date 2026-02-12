@@ -1,10 +1,26 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { BreadcrumbJsonLd } from "@/components/JsonLd";
+
+export const metadata = {
+  title: "特別養護老人ホーム 結の里 | 社会福祉法人健慈会",
+  description: "岩手県野田村の特別養護老人ホーム結の里。ユニットケアによる家庭的な雰囲気の中で、個人の尊厳を重視した介護サービスを提供します。入所定員29名、全室個室。",
+  alternates: {
+    canonical: "./",
+  },
+};
 
 export default function YuiPage() {
   return (
     <div className="space-y-12">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "https://kenjikai.jp" },
+          { name: "施設紹介", url: "https://kenjikai.jp/#facilities" },
+          { name: "特別養護老人ホーム 結の里", url: "https://kenjikai.jp/facilities/yui" },
+        ]}
+      />
       <section className="text-center py-16 bg-blue-100 rounded-lg shadow-md">
         <h2 className="text-4xl font-bold text-blue-800 mb-4">特別養護老人ホーム 結の里</h2>
         <p className="text-lg text-gray-700">
@@ -81,16 +97,16 @@ export default function YuiPage() {
           <aside className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">アクセス</h3>
             <p className="text-gray-700 leading-relaxed">
-              〒028-8202 岩手県九戸郡野田村大字玉川第5地割45-22<br/>
-              TEL 0194-78-3290 / FAX 0194-78-3297<br/>
+              〒028-8202 岩手県九戸郡野田村大字玉川第5地割45-22<br />
+              TEL 0194-78-3290 / FAX 0194-78-3297<br />
               三陸鉄道リアス線「野田玉川駅」より徒歩1分
             </p>
           </aside>
           <aside className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">協力医療機関</h3>
             <p className="text-gray-700 leading-relaxed">
-              岩手県立久慈病院（医科）<br/>
-              村田歯科医院（歯科）<br/>
+              岩手県立久慈病院（医科）<br />
+              村田歯科医院（歯科）<br />
               24時間オンコール体制でグループホームぬくもりとも連携しています。
             </p>
           </aside>

@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "/",
+    canonical: "./",
   },
   icons: {
     icon: [
@@ -100,8 +100,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   verification: {
-    // Google Search Console の確認コード（後で設定）
-    // google: "your-google-verification-code",
+    google: "GUUaa6Wm0JARn9CUPw4xOYhrXHl5LrRRUdIyYZ8O0wk",
   },
   category: "healthcare",
 };

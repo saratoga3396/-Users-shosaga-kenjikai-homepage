@@ -1,10 +1,26 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { BreadcrumbJsonLd } from "@/components/JsonLd";
+
+export const metadata = {
+  title: "グループホーム ぬくもり | 社会福祉法人健慈会",
+  description: "岩手県野田村のグループホームぬくもり。認知症があっても安心して暮らせる共同生活の場。2ユニット18名、家庭的な環境で自立支援を行います。",
+  alternates: {
+    canonical: "./",
+  },
+};
 
 export default function NukumoriPage() {
   return (
     <div className="space-y-12">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "https://kenjikai.jp" },
+          { name: "施設紹介", url: "https://kenjikai.jp/#facilities" },
+          { name: "グループホーム ぬくもり", url: "https://kenjikai.jp/facilities/nukumori" },
+        ]}
+      />
       <section className="text-center py-16 bg-green-100 rounded-lg shadow-md">
         <h2 className="text-4xl font-bold text-green-800 mb-4">グループホーム ぬくもり</h2>
         <p className="text-lg text-gray-700">
@@ -84,8 +100,8 @@ export default function NukumoriPage() {
           <aside className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">アクセス</h3>
             <p className="text-gray-700 leading-relaxed">
-              〒028-8202 岩手県九戸郡野田村大字玉川第5地割45-22<br/>
-              TEL 0194-78-3296 / FAX 0194-78-3297<br/>
+              〒028-8202 岩手県九戸郡野田村大字玉川第5地割45-22<br />
+              TEL 0194-78-3296 / FAX 0194-78-3297<br />
               三陸鉄道リアス線「野田玉川駅」より徒歩1分
             </p>
           </aside>

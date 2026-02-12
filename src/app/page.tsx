@@ -83,6 +83,14 @@ const accessInfo = {
   nearest: "JR久慈駅から車で約25分 / 三陸沿岸道路 野田ICから車で約8分",
 };
 
+export const metadata = {
+  title: "社会福祉法人健慈会 | 特別養護老人ホーム結の里・グループホームぬくもり",
+  description: "岩手県野田村の社会福祉法人健慈会が運営する特別養護老人ホーム結の里とグループホームぬくもり。地域密着型介護サービスで、利用者様の尊厳を守り、家庭的な雰囲気の中で安心して暮らせる環境を提供しています。",
+  alternates: {
+    canonical: "./",
+  },
+};
+
 export default function Home() {
   return (
     <div className="space-y-12 md:space-y-16">
