@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   verification: {
-    google: "GUUaa6Wm0JARn9CUPw4xOYhrXHl5LrRRUdIyYZ8O0wk",
+    google: "0HxzKut8ly0u-N2qSS9XbotlVnbW1FpzGQaFEVfJClQ",
   },
   category: "healthcare",
 };
