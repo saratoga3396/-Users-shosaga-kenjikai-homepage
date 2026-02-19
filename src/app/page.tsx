@@ -428,7 +428,7 @@ export default function Home() {
               <li>
                 ・
                 <Link
-                  href="https://drive.google.com/file/d/1SMaIbH593NIRHlGfeIH1DWLm80kx3C-0/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Of_VSXoYPZU-AuUOOmvYHkicJha7ezUJ/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
@@ -439,7 +439,7 @@ export default function Home() {
               <li>
                 ・
                 <Link
-                  href="https://drive.google.com/file/d/1X9mFXo6YSvkSeDoQVGNLleaJCa8Je3MH/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1j7Q1Ltdf7USCVexgKYRr64ug6436VLD8/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
@@ -450,7 +450,7 @@ export default function Home() {
               <li>
                 ・
                 <Link
-                  href="https://drive.google.com/file/d/1ZH9oEQgiq9AF48c7iC_LT-heXjXoKwUf/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1CQG1_KpWRKkFm9PHCwjS48I5VEP-qKTW/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
