@@ -65,16 +65,16 @@ export default function YuiPage() {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1559344068-34b3b3435a8f?q=80&w=800&auto=format&fit=crop" alt="居室" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/yui-hinamatsuri.jpg" alt="ひな祭り集合" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1584515933487-779824d29b0a?q=80&w=800&auto=format&fit=crop" alt="共有スペース" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/yui-activity-pan.jpg" alt="パン作りレクリエーション" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1560026301-93c3f2939b04?q=80&w=800&auto=format&fit=crop" alt="食堂" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/yui-activity-balloon.jpg" alt="風船バレーレクリエーション" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1584444284982-9dc5f43559ac?q=80&w=800&auto=format&fit=crop" alt="浴室" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/yui-activity-ballgame.jpg" alt="ボール投げレクリエーション" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
             </div>
           </section>

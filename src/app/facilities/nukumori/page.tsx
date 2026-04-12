@@ -68,16 +68,16 @@ export default function NukumoriPage() {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1505576391880-b3f9d713dc4f?q=80&w=800&auto=format&fit=crop" alt="リビング" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/nukumori-hinamatsuri.jpg" alt="ひな祭り集合" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800&auto=format&fit=crop" alt="個室" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/nukumori-activity-origami.jpg" alt="折り紙レクリエーション" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=800&auto=format&fit=crop" alt="キッチン" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/nukumori-activity-pan.jpg" alt="パン作りレクリエーション" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1523348887946-656d5421e12a?q=80&w=800&auto=format&fit=crop" alt="菜園" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
+                <Image src="/images/nukumori-activity-grinding.jpg" alt="すり鉢で作業するレクリエーション" layout="fill" objectFit="cover" className="transition-transform duration-300 hover:scale-105" />
               </div>
             </div>
           </section>
