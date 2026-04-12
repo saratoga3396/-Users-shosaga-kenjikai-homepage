@@ -619,23 +619,15 @@ export default function Home() {
                 看護職員（正社員）
               </Link>
               <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000004261&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000754261&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
               >
-                介護職員（正社員）
+                介護職員（夜勤なし）
               </Link>
               <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000047561&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
-              >
-                生活相談員（正社員）
-              </Link>
-              <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000219861&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000753661&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
