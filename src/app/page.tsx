@@ -754,19 +754,14 @@ export default function Home() {
   );
 }
 const galleryImages = [
-  { src: "/images/christmas_event_2025.jpg", alt: "クリスマスイベント" },
-  { src: "/images/christmas_event_2025_2.jpg", alt: "クリスマスイベント2" },
-  { src: "/images/christmas_event_2025_3.jpg", alt: "クリスマスイベント3" },
-  { src: "/images/christmas_event_2025_4.jpg", alt: "クリスマスイベント4" },
-  { src: "/images/christmas_event_2025_5.jpg", alt: "クリスマスイベント5" },
-  { src: "/images/line_oa_chat_250210_120553.jpg", alt: "施設全景の俯瞰" },
-  { src: "/images/line_oa_chat_251014_142023_group_2.jpg", alt: "木々に囲まれた外観" },
-
-  { src: "/images/line_oa_chat_251023_165141.jpg", alt: "共用部の装飾" },
-  { src: "/images/IMG_1150.JPG", alt: "季節のイベント" },
-  { src: "/images/IMG_1159.JPG", alt: "ダイニングスペース" },
-  { src: "/images/IMG_1169.JPG", alt: "居室前の通路" },
-  { src: "/images/IMG_1296.JPG", alt: "施設周辺の風景" },
+  { src: "/images/yui-hinamatsuri.jpg", alt: "ひな祭り集合" },
+  { src: "/images/yui-activity-balloon.jpg", alt: "風船バレーレクリエーション" },
+  { src: "/images/yui-activity-ballgame.jpg", alt: "ボール投げゲーム" },
+  { src: "/images/yui-activity-pan.jpg", alt: "パン作りレクリエーション" },
+  { src: "/images/nukumori-hinamatsuri.jpg", alt: "ひな祭り集合（ぬくもり）" },
+  { src: "/images/nukumori-activity-origami.jpg", alt: "折り紙レクリエーション" },
+  { src: "/images/nukumori-activity-pan.jpg", alt: "パン生地作りレクリエーション" },
+  { src: "/images/nukumori-activity-grinding.jpg", alt: "すり鉢を使ったレクリエーション" },
 ];
 
 const facilityInteriorImages = [
