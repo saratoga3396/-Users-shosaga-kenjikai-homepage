@@ -34,7 +34,7 @@ export function OrganizationJsonLd({
 }: OrganizationJsonLdProps) {
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": ["Organization", "MedicalOrganization", "NursingHome"],
         name,
         description,
         url,
