@@ -746,6 +746,7 @@ export default function Home() {
   );
 }
 const galleryImages = [
+  { src: "/images/garden-work-spring-2026.jpg", alt: "春の庭仕事・花壇づくり" },
   { src: "/images/yui-hinamatsuri.jpg", alt: "ひな祭り集合" },
   { src: "/images/yui-activity-balloon.jpg", alt: "風船バレーレクリエーション" },
   { src: "/images/yui-activity-ballgame.jpg", alt: "ボール投げゲーム" },

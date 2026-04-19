@@ -8,6 +8,13 @@ export type DetailedNews = {
 
 export const detailedNews: DetailedNews[] = [
   {
+    date: "2026.4.19",
+    title: "広報52号（2026春号）発行しました！",
+    body: "広報52号（2026春号）を発行しました。春の行事や地域交流の様子、季節ならではの取り組みを掲載しています。PDFをダウンロードしてぜひご覧ください。",
+    linkLabel: "広報52号（PDF）はこちら",
+    linkUrl: "https://drive.google.com/file/d/1uIOJITPGQhBkOg5T0Ak6SdVKUdyRR_ub/view?usp=sharing",
+  },
+  {
     date: "2026.2.1",
     title: "グループホームぬくもり外部評価結果について",
     body: "特定非営利活動法人　いわての保健福祉支援研究会様による外部評価が2026年1月21日に確定しました。評価結果の詳細は下記リンクよりご覧いただけます。",
