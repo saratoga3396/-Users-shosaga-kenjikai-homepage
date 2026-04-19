@@ -8,9 +8,9 @@ export type DetailedNews = {
 
 export const detailedNews: DetailedNews[] = [
   {
-    date: "2026.4.19",
+    date: "2026.4.15",
     title: "広報52号（2026春号）発行しました！",
-    body: "広報52号（2026春号）を発行しました。春の行事や地域交流の様子、季節ならではの取り組みを掲載しています。PDFをダウンロードしてぜひご覧ください。",
+    body: "広報52号を発行しました。今号では、新任の生活相談員のご紹介のほか、ひなまつりや春のミニ運動会（玉入れ・輪投げ・風船バレー）の様子をお届けします。また、手作りおやつ「きらずだんつ（おからもち）」作りや、春の庭仕事・花壇づくりの活動もご紹介しています。ぜひご覧ください。",
     linkLabel: "広報52号（PDF）はこちら",
     linkUrl: "https://drive.google.com/file/d/1uIOJITPGQhBkOg5T0Ak6SdVKUdyRR_ub/view?usp=sharing",
   },
