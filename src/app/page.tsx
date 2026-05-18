@@ -611,7 +611,7 @@ export default function Home() {
           <div className="w-full">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
               <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000241461&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110020.do?screenId=GECA110020&action=dispDetailBtn&kjNo=0310000881161&jgshNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&kjKbn=1&fullPart=1&iNFTeikyoRiyoDtiID=&ksNo=&newArrived=&tatZngy="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
