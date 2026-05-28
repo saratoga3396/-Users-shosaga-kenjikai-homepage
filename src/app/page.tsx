@@ -746,15 +746,13 @@ export default function Home() {
   );
 }
 const galleryImages = [
-  { src: "/images/garden-work-spring-2026.jpg", alt: "春の庭仕事・花壇づくり" },
-  { src: "/images/yui-hinamatsuri.jpg", alt: "ひな祭り集合" },
-  { src: "/images/yui-activity-balloon.jpg", alt: "風船バレーレクリエーション" },
-  { src: "/images/yui-activity-ballgame.jpg", alt: "ボール投げゲーム" },
-  { src: "/images/yui-activity-pan.jpg", alt: "パン作りレクリエーション" },
-  { src: "/images/nukumori-hinamatsuri.jpg", alt: "ひな祭り集合（ぬくもり）" },
-  { src: "/images/nukumori-activity-origami.jpg", alt: "折り紙レクリエーション" },
-  { src: "/images/nukumori-activity-pan.jpg", alt: "パン生地作りレクリエーション" },
-  { src: "/images/nukumori-activity-grinding.jpg", alt: "すり鉢を使ったレクリエーション" },
+  { src: "/images/yui-lunch-soft-food-2026.jpg", alt: "昼食の時間" },
+  { src: "/images/yui-meal-chirashi-2026.jpg", alt: "ちらし寿司の昼食" },
+  { src: "/images/yui-dessert-flowers-2026.jpg", alt: "おやつのひととき" },
+  { src: "/images/yui-flowers-plush-2026.jpg", alt: "季節のお花とともに" },
+  { src: "/images/yui-mealtime-greeting-2026.jpg", alt: "食事のひととき" },
+  { src: "/images/yui-noda-rice-gift-2026.jpg", alt: "野田小学校6年生からお米の贈り物" },
+  { src: "/images/yui-noda-rice-gift-group-2026.jpg", alt: "野田小学校からの贈り物に笑顔" },
 ];
 
 const facilityInteriorImages = [
