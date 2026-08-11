@@ -761,17 +761,6 @@ const galleryImages = [
   { src: "/images/yui-natsumatsuri-suikawari-support-2026.jpg", alt: "夏祭り 職員に支えられてスイカ割り" },
   { src: "/images/yui-natsumatsuri-bonodori-2026.jpg", alt: "夏祭り 会場みんなで盆踊り" },
   { src: "/images/yui-natsumatsuri-bonodori-shidai-2026.jpg", alt: "夏祭り 職員と一緒に盆踊り" },
-  { src: "/images/yui-lunch-soft-food-2026.jpg", alt: "昼食の時間" },
-  { src: "/images/yui-meal-chirashi-2026.jpg", alt: "ちらし寿司の昼食" },
-  { src: "/images/yui-dessert-flowers-2026.jpg", alt: "おやつのひととき" },
-  { src: "/images/yui-flowers-plush-2026.jpg", alt: "季節のお花とともに" },
-  { src: "/images/yui-mealtime-greeting-2026.jpg", alt: "食事のひととき" },
-  { src: "/images/yui-noda-rice-gift-2026.jpg", alt: "野田小学校6年生からお米の贈り物" },
-  { src: "/images/yui-noda-rice-gift-group-2026.jpg", alt: "野田小学校からの贈り物に笑顔" },
-  { src: "/images/yui-noda-rice-gift-man-2026.jpg", alt: "野田小学校からのお米を手に" },
-  { src: "/images/yui-ohagi-shaping-2026.jpg", alt: "いただいたお米でおはぎ作り" },
-  { src: "/images/yui-ohagi-sesame-coating-2026.jpg", alt: "ごまをまぶして仕上げ" },
-  { src: "/images/yui-ohagi-tasting-2026.jpg", alt: "できたておはぎを味わう" },
 ];
 
 const facilityInteriorImages = [
