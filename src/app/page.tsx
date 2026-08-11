@@ -458,6 +458,17 @@ export default function Home() {
                   事業報告
                 </Link>
               </li>
+              <li>
+                ・
+                <Link
+                  href="https://drive.google.com/file/d/1xbW6cqskq8k8AqWUFfG9Gyjr4K-Uniz7/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  介護職員等処遇改善加算に係る情報公開（見える化要件）
+                </Link>
+              </li>
             </ul>
           </article>
           <article className="rounded-2xl border border-gray-100 p-6">
@@ -611,15 +622,7 @@ export default function Home() {
           <div className="w-full">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
               <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110020.do?screenId=GECA110020&action=dispDetailBtn&kjNo=0310000881161&jgshNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&kjKbn=1&fullPart=1&iNFTeikyoRiyoDtiID=&ksNo=&newArrived=&tatZngy="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
-              >
-                看護職員（正社員）
-              </Link>
-              <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000754261&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310001197461&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
@@ -627,12 +630,12 @@ export default function Home() {
                 介護職員（夜勤なし）
               </Link>
               <Link
-                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310000753661&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+                href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0310001039361&kJKbn=1&jGSHNo=hD7QtUXf9aDymi7jHZ5glw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 font-semibold text-white shadow-md transition hover:bg-emerald-500 hover:shadow-lg"
               >
-                調理員（パート）
+                介護支援専門員（正社員）
               </Link>
             </div>
             <div className="mt-6 flex justify-center">
@@ -746,6 +749,18 @@ export default function Home() {
   );
 }
 const galleryImages = [
+  { src: "/images/yui-natsumatsuri-cheerdance-2026.jpg", alt: "夏祭り チアダンスクラブCHERISH様の演技" },
+  { src: "/images/yui-natsumatsuri-appaazu-2026.jpg", alt: "夏祭り あっぱあず様の演目を楽しむ利用者様" },
+  { src: "/images/yui-natsumatsuri-odori-2026.jpg", alt: "夏祭り アトラクションの踊り" },
+  { src: "/images/yui-natsumatsuri-naruko-2026.jpg", alt: "夏祭り 鳴子を鳴らして一緒に演奏" },
+  { src: "/images/yui-natsumatsuri-dance-2026.jpg", alt: "夏祭り 手を取り合って踊るひととき" },
+  { src: "/images/yui-natsumatsuri-greeting-2026.jpg", alt: "夏祭り 出演者と握手を交わす利用者様" },
+  { src: "/images/yui-natsumatsuri-suikawari-challenge-2026.jpg", alt: "夏祭り スイカ割りの合図を待って" },
+  { src: "/images/yui-natsumatsuri-suikawari-2026.jpg", alt: "夏祭り スイカ割りに挑戦" },
+  { src: "/images/yui-natsumatsuri-suikawari-hachimaki-2026.jpg", alt: "夏祭り 鉢巻を締めてスイカ割り" },
+  { src: "/images/yui-natsumatsuri-suikawari-support-2026.jpg", alt: "夏祭り 職員に支えられてスイカ割り" },
+  { src: "/images/yui-natsumatsuri-bonodori-2026.jpg", alt: "夏祭り 会場みんなで盆踊り" },
+  { src: "/images/yui-natsumatsuri-bonodori-shidai-2026.jpg", alt: "夏祭り 職員と一緒に盆踊り" },
   { src: "/images/yui-lunch-soft-food-2026.jpg", alt: "昼食の時間" },
   { src: "/images/yui-meal-chirashi-2026.jpg", alt: "ちらし寿司の昼食" },
   { src: "/images/yui-dessert-flowers-2026.jpg", alt: "おやつのひととき" },
