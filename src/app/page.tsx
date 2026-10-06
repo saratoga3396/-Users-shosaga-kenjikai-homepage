@@ -761,6 +761,15 @@ export default function Home() {
   );
 }
 const galleryImages = [
+  { src: "/images/yui-keirokai-hall-2026.jpg", alt: "敬老会 会場の様子" },
+  { src: "/images/yui-keirokai-odori-2026.jpg", alt: "敬老会 踊りの披露" },
+  { src: "/images/yui-keirokai-beiju-2026.jpg", alt: "敬老会 米寿のお祝い" },
+  { src: "/images/yui-keirokai-beiju-2-2026.jpg", alt: "敬老会 米寿のお祝いの記念撮影" },
+  { src: "/images/yui-keirokai-kinenhin-2026.jpg", alt: "敬老会 記念品の贈呈" },
+  { src: "/images/yui-keirokai-aisatsu-2026.jpg", alt: "敬老会 利用者様からのごあいさつ" },
+  { src: "/images/yui-keirokai-interview-2026.jpg", alt: "敬老会 マイクを向けてお祝いのインタビュー" },
+  { src: "/images/yui-keirokai-kazari-2026.jpg", alt: "敬老会 手作りの飾りつけの前で" },
+  { src: "/images/yui-keirokai-oiwaizen-2026.jpg", alt: "敬老会 お祝い膳をいただきます" },
   { src: "/images/yui-natsumatsuri-cheerdance-2026.jpg", alt: "夏祭り チアダンスクラブCHERISH様の演技" },
   { src: "/images/yui-natsumatsuri-appaazu-2026.jpg", alt: "夏祭り あっぱあず様の演目を楽しむ利用者様" },
   { src: "/images/yui-natsumatsuri-odori-2026.jpg", alt: "夏祭り アトラクションの踊り" },
