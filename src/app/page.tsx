@@ -770,18 +770,6 @@ const galleryImages = [
   { src: "/images/yui-keirokai-interview-2026.jpg", alt: "敬老会 マイクを向けてお祝いのインタビュー" },
   { src: "/images/yui-keirokai-kazari-2026.jpg", alt: "敬老会 手作りの飾りつけの前で" },
   { src: "/images/yui-keirokai-oiwaizen-2026.jpg", alt: "敬老会 お祝い膳をいただきます" },
-  { src: "/images/yui-natsumatsuri-cheerdance-2026.jpg", alt: "夏祭り チアダンスクラブCHERISH様の演技" },
-  { src: "/images/yui-natsumatsuri-appaazu-2026.jpg", alt: "夏祭り あっぱあず様の演目を楽しむ利用者様" },
-  { src: "/images/yui-natsumatsuri-odori-2026.jpg", alt: "夏祭り アトラクションの踊り" },
-  { src: "/images/yui-natsumatsuri-naruko-2026.jpg", alt: "夏祭り 鳴子を鳴らして一緒に演奏" },
-  { src: "/images/yui-natsumatsuri-dance-2026.jpg", alt: "夏祭り 手を取り合って踊るひととき" },
-  { src: "/images/yui-natsumatsuri-greeting-2026.jpg", alt: "夏祭り 出演者と握手を交わす利用者様" },
-  { src: "/images/yui-natsumatsuri-suikawari-challenge-2026.jpg", alt: "夏祭り スイカ割りの合図を待って" },
-  { src: "/images/yui-natsumatsuri-suikawari-2026.jpg", alt: "夏祭り スイカ割りに挑戦" },
-  { src: "/images/yui-natsumatsuri-suikawari-hachimaki-2026.jpg", alt: "夏祭り 鉢巻を締めてスイカ割り" },
-  { src: "/images/yui-natsumatsuri-suikawari-support-2026.jpg", alt: "夏祭り 職員に支えられてスイカ割り" },
-  { src: "/images/yui-natsumatsuri-bonodori-2026.jpg", alt: "夏祭り 会場みんなで盆踊り" },
-  { src: "/images/yui-natsumatsuri-bonodori-shidai-2026.jpg", alt: "夏祭り 職員と一緒に盆踊り" },
 ];
 
 const facilityInteriorImages = [
