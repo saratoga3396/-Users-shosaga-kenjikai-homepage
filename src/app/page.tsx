@@ -132,7 +132,7 @@ export default function Home() {
         className="relative left-1/2 right-1/2 w-screen -translate-x-1/2 bg-emerald-50/40 py-14"
       >
         <div className="mx-auto max-w-6xl space-y-6 px-6 text-center">
-          <div className="flex justify-center">
+          <div className="flex flex-wrap items-center justify-center gap-3">
             <Link
               href="https://drive.google.com/file/d/1Eh_qMguit4w1RqfKoP3RDeQa62fRrvu5/view?usp=sharing"
               target="_blank"
@@ -140,6 +140,12 @@ export default function Home() {
               className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3 font-semibold text-emerald-700 shadow"
             >
               入所申込書ダウンロード (PDF)
+            </Link>
+            <Link
+              href="/apply"
+              className="inline-flex items-center gap-2 rounded-full bg-amber-400 px-8 py-3 font-bold text-emerald-900 shadow transition hover:bg-amber-300"
+            >
+              オンライン入所申し込み
             </Link>
           </div>
 
@@ -283,7 +289,7 @@ export default function Home() {
               <li>・長期入所</li>
               <li>・認知症対応型共同生活介護（グループホーム）入居</li>
             </ul>
-            <p className="mt-4 text-sm underline decoration-dotted">施設にお越しのうえ、直接ご利用申し込みをお願いいたします。</p>
+            <p className="mt-4 text-sm underline decoration-dotted">施設窓口での直接のお申し込みのほか、オンラインでもお申し込みいただけます。</p>
           </article>
           <article className="rounded-2xl bg-white/10 p-6 backdrop-blur">
             <h3 className="text-2xl font-semibold">短期利用・通所サービス</h3>
@@ -388,7 +394,13 @@ export default function Home() {
             </ul>
           </article>
         </div>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <Link
+            href="/apply"
+            className="inline-flex items-center gap-2 rounded-full bg-amber-400 px-8 py-3 font-bold text-emerald-900 shadow-lg transition hover:bg-amber-300"
+          >
+            オンライン入所申し込み
+          </Link>
           <Link
             href="https://drive.google.com/file/d/1Eh_qMguit4w1RqfKoP3RDeQa62fRrvu5/view?usp=sharing"
             target="_blank"
