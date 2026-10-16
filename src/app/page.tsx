@@ -761,6 +761,10 @@ export default function Home() {
   );
 }
 const galleryImages = [
+  { src: "/images/yui-sanmayaki-sanma-2026.jpg", alt: "サンマ焼き 焼く前のサンマを前に笑顔" },
+  { src: "/images/yui-sanmayaki-tent-2026.jpg", alt: "サンマ焼き テントの下で炭火焼き" },
+  { src: "/images/yui-sanmayaki-outdoor-2026.jpg", alt: "サンマ焼き 外でおしゃべりを楽しむ利用者様" },
+  { src: "/images/yui-minitomato-2026.jpg", alt: "色とりどりのミニトマトを手に" },
   { src: "/images/yui-keirokai-hall-2026.jpg", alt: "敬老会 会場の様子" },
   { src: "/images/yui-keirokai-odori-2026.jpg", alt: "敬老会 踊りの披露" },
   { src: "/images/yui-keirokai-beiju-2026.jpg", alt: "敬老会 米寿のお祝い" },
