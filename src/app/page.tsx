@@ -175,7 +175,7 @@ export default function Home() {
             <article key={`${item.date}-${item.title}`} className="rounded-2xl border border-emerald-50 bg-emerald-50/60 p-6">
               <p className="text-sm font-semibold text-emerald-700">{item.date}</p>
               <h3 className="mt-2 text-2xl font-semibold text-gray-900">{item.title}</h3>
-              <p className="mt-3 text-gray-800 leading-relaxed">{item.body}</p>
+              <p className="mt-3 text-gray-800 leading-relaxed whitespace-pre-line">{item.body}</p>
               {item.linkUrl && item.linkLabel && (
                 <Link
                   href={item.linkUrl}
